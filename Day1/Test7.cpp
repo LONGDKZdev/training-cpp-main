@@ -27,11 +27,11 @@ int main()
 
 
     cout << setfill('_');
-    cout << setw(40)<< "_" << endl;
+    cout << setw(25)<< "_" << endl;
     cout << setfill (' ');
     cout<<"******* exercise *******"<< endl;
     cout << setfill('_');
-    cout << setw(40)<< "_" << endl;
+    cout << setw(25)<< "_" << endl;
     cout << setfill (' ');
 
     int valueA ,valueA1 , valueA2 ,valueA3 , valueA4 ;
