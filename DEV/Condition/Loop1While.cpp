@@ -16,18 +16,30 @@ int main()
     }
 
 ///////////////////////////////////////////
-//////    Enter value from 1 to 1000 //////
+//////    Enter value from 1 to 100 //////
 ///////////////////////////////////////////
     double valueA;
-    cout <<" Enter value from 1 to 1000 : ";
+    cout <<" Enter value from 1 to 100 : ";
     cin >> valueA;
 
-    while (valueA < 1 || valueA >1000)
+    while (valueA < 1 || valueA >100)
     {
         cout << "Error!, please enter again :";
         cin >> valueA;
     }
     cout << "Correct!"<<endl;
+
+// while true (luôn đúng ----> chạy mãi nếu không dùng If() + break;(thoát vòng lặp))
+
+    int valueB =0;
+    while (true)
+{
+    cout << "valueOut ="<< valueB << endl;
+    valueB++;
+    if(valueB >100)
+    break;
+}
+
 
 
 
