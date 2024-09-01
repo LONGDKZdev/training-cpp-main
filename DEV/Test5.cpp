@@ -15,7 +15,7 @@ int main()
     cout <<ch3<< endl;
     cout <<ch4<< endl;
 
-    char ch1{76}; char ch2{79}; char ch3{78}; char ch4{71};
+    char chA{76}; char chB{79}; char chC{78}; char chD{71};
     cout << ch1 << ch2 << ch3 << ch4 << endl;
     int n{76};
     cout << static_cast <char> (n) << endl;

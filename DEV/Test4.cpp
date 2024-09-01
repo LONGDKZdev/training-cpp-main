@@ -27,8 +27,8 @@ int main()
     bool b2 {!0};
     cout << b1 << b1 << b2 << b1 << b2 << "\n";
 
-    bool b1 {true};
-    if (b1 == true)
+    bool b3 {true};
+    if (b3 == true)
         cout << "b1 is true\n";
     else
         cout <<  "b1 is false\n";
