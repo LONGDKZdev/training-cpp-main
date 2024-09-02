@@ -26,6 +26,8 @@ int main()
     cout << setw(55)<< "_" << endl;
     cout << setfill (' ');
 
+//Kiểm tra trường hợp int và double//
+
     int value01 = 10.4;
     double value02 = 9.7;
 
@@ -52,6 +54,7 @@ int main()
     cout << setw(55)<< "_" << endl;
     cout << setfill (' ');
 
+// (+)(-)(*)(/) //
 
     float value001;
     value001 =327.23;
