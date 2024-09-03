@@ -25,6 +25,8 @@ int main()
     case 4:
         cout << "4. Search by title "<<endl;
         break;
+    default :
+        cout << "Error! Can't not found !"<<endl;
     }
 system("Pause");
 }
