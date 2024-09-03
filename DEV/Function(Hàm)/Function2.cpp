@@ -27,10 +27,21 @@ cin >> valueB;
 
 cout<< "Enter valueC=";
 cin >> valueC;
-cout << valueA <<"x^2"<<"+"<<valueB<<"x"<<valueC<<endl;
-MatchWithEquation(valueA, valueB, valueC);
 
-    system("Pause");
+    if(valueB >0 || valueC >0)
+        cout << valueA <<"x^2"<<"+"<<valueB<<"x"<<"+"<<valueC<<endl;
+    else if(valueB >0 || valueC <0 )
+        cout << valueA <<"x^2"<<"+"<<valueB<<"x"<<valueC<<endl;
+    else if(valueB <0 || valueC >0 )
+        cout << valueA <<"x^2"<<valueB<<"x"<<"+"<<valueC<<endl;
+    else if(valueB <0 || valueC <0 )
+        cout << valueA <<"x^2"<<valueB<<"x"<<valueC<<endl;
+    else
+        cout << valueA <<"x^2"<<valueC<<endl;
+
+    MatchWithEquation(valueA,valueB,valueC);
+
+system("Pause");
 }
 
 
@@ -42,7 +53,17 @@ x1=((-valueB + sqrt(Delta)) /(2*valueA));
 x2=((-valueB - sqrt(Delta)) /(2*valueA));
 if (Delta >0)
 {
-    cout << valueA <<"x^2"<<"+"<<valueB<<"x"<<valueC<<endl;
+    if(valueB >0 || valueC >0)
+        cout << valueA <<"x^2"<<"+"<<valueB<<"x"<<"+"<<valueC<<endl;
+    else if(valueB <0 || valueC <0 )
+        cout << valueA <<"x^2"<<valueB<<"x"<<valueC<<endl;
+    else if(valueB <0 || valueC >0 )
+        cout << valueA <<"x^2"<<valueB<<"x"<<"+"<<valueC<<endl;
+    else if(valueB >0 || valueC <0 )
+        cout << valueA <<"x^2"<<"+"<<valueB<<"x"<<valueC<<endl;
+    else
+        cout << valueA <<"x^2"<<valueC<<endl;
+
     cout <<"The equation have two value:\n";
     cout <<"value1="<<setprecision(9) <<x1<<endl;
     cout <<"value2="<<setprecision(9) <<x2<<endl;
@@ -52,7 +73,17 @@ if (Delta >0)
 }
 else if(Delta == 0 )
 {
-    cout << valueA <<"x^2"<<"+"<<valueB<<"x"<<valueC<<endl;
+    if(valueB >0 || valueC >0)
+        cout << valueA <<"x^2"<<"+"<<valueB<<"x"<<"+"<<valueC<<endl;
+    else if(valueB <0 || valueC <0 )
+        cout << valueA <<"x^2"<<valueB<<"x"<<valueC<<endl;
+    else if(valueB <0 || valueC >0 )
+        cout << valueA <<"x^2"<<valueB<<"x"<<"+"<<valueC<<endl;
+    else if(valueB >0 || valueC <0 )
+        cout << valueA <<"x^2"<<"+"<<valueB<<"x"<<valueC<<endl;
+    else
+        cout << valueA <<"x^2"<<valueC<<endl;
+    
     cout <<"The equation have double value:\n";
     cout <<"value1=value2="<< x1 <<endl;
     cout << setfill('_');
@@ -61,7 +92,17 @@ else if(Delta == 0 )
 }
 else 
 {
-    cout << valueA <<"x^2"<<"+"<<valueB<<"x"<<valueC<<endl;
+    if(valueB >0 || valueC >0)
+        cout << valueA <<"x^2"<<"+"<<valueB<<"x"<<"+"<<valueC<<endl;
+    else if(valueB <0 || valueC <0 )
+        cout << valueA <<"x^2"<<valueB<<"x"<<valueC<<endl;
+    else if(valueB <0 || valueC >0 )
+        cout << valueA <<"x^2"<<valueB<<"x"<<"+"<<valueC<<endl;
+    else if(valueB >0 || valueC <0 )
+        cout << valueA <<"x^2"<<"+"<<valueB<<"x"<<valueC<<endl;
+    else
+        cout << valueA <<"x^2"<<valueC<<endl;
+    
     cout <<"The equation haven't value"<<endl;
     cout << setfill('_');
     cout << setw(25)<< "_" << endl;
