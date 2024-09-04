@@ -13,10 +13,9 @@ void ValueConstant(int valueA)
 
 int main()
 {
-    int valueA;
-    
-    cout << "ValueA normal = ";
-    cin >> valueA;
+    int valueA=12;
+    cout << "ValueA normal = "<<valueA<<endl;
+
 
     ValueConstant(valueA);
     cout << "valueA with ValueConstant ="<<valueA<<endl;
