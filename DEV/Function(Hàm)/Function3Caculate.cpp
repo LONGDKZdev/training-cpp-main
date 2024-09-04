@@ -36,22 +36,30 @@ double quotient =valueA / valueB;
 
 switch (character)
     {
+    //1.sum(+)
     case ('+'):
         cout <<"valueA + valueB = " << sum <<endl;
     break;
+    //2.difference(-)
     case ('-'):
         cout <<"valueA - valueB = " << difference <<endl;
     break;
+    //3.product(*)
     case ('*'):
         cout <<"valueA * valueB = " << product <<endl;
     break;
+    //4.quotient(/)
     case ('/'):
         if(valueA==0)
-        cout <<"Error! can't caculate"<<endl;
+        cout <<"ERROR! cann't caculate"<<endl;
         else if(valueB==0)
-        cout <<"Error! can't caculate"<<endl;
+        cout <<"ERROR! cann't caculate"<<endl;
         else 
         cout <<"valueA / valueB = "<<setprecision(8)<<quotient <<endl;
+    break;
+    //5.ERROR!
+    default:
+    cout<< "ERROR! CANN'T FOUND"<<endl;
     break;
     }
 }
