@@ -16,4 +16,5 @@ int main()
 {
     int valueOut = Value(9);
     cout <<"valueOut ="<<valueOut<<endl;
+
 }
