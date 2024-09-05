@@ -5,5 +5,9 @@ int main()
 {
 
 	cout<<"sqrt(5) = "<<sqrt(5)<<endl;//2.23607
+	cout<<"sqrt(5) = "<<sqrt(5)<<endl;//2.23607
+
+cout<<"sqrt(5) = "<<sqrt(5)<<endl;//2.23607
+
 
 }

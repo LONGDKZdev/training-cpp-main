@@ -16,11 +16,9 @@ int main()
     int valueA=12;
     cout << "ValueA normal = "<<valueA<<endl;
 
+ValueConstant(valueA);
+cout << "valueA with ValueConstant ="<<valueA<<endl;
 
-    ValueConstant(valueA);
-    cout << "valueA with ValueConstant ="<<valueA<<endl;
-
-    
 system("Pause");
 }
 
