@@ -9,11 +9,11 @@ int valueB;
 
 int Value(int valueA, int valueB=7)
 {
-    return valueA * valueB;
+    return valueA - valueB;
 }
 
 int main()
 {
-    int valueOut = Value(9);
+    int valueOut = Value(8);
     cout <<"valueOut ="<<valueOut<<endl;
 }
