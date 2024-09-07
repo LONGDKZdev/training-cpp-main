@@ -17,5 +17,6 @@ int main()
     int valueOut = Value(100);
     cout <<"valueOut ="<<valueOut<<endl;
     return 0;
+
     
 }
