@@ -22,7 +22,9 @@ int main()
     cout << d2 << endl;
 
     cout << "FullName:VoHuyLong\nClass:12/8"<<endl;
+/////////////////////
     system("Pause");
+/////////////////////
     bool b1 {!1};
     bool b2 {!0};
     cout << b1 << b1 << b2 << b1 << b2 << "\n";
@@ -32,13 +34,21 @@ int main()
         cout << "b1 is true\n";
     else
         cout <<  "b1 is false\n";
-    system("Pause");
+
+////////////////////
+system("Pause");
+////////////////////
 
     bool isLong = false ;
     if (!isLong)
         cout << "DKZ\n";
     else
         cout << "418\n";
+
+////////////////////
+system("Pause");
+////////////////////
+
 
     /////////////
     // BÀI 10
@@ -52,14 +62,18 @@ int main()
     cin >> nDay >> nMonth >> nYear ;
     cout << "your BirthDay:" << nDay << "/" << nMonth << "/" << nYear << endl;
 
+////////////////////
+system("Pause");
+////////////////////
 
     cout << setw(5) << left << "ID" ;
     cout << setw(30) << left << "Name";
     cout << setw(20) << right << "Adress\n";
 
-    cout << setfill('$');
-    cout << setw(55)<< "$" << endl;
+    cout << setfill('-');
+    cout << setw(55)<< "-" << endl;
     cout << setfill (' ');
+
 
     cout << setw(5) << left << 1;
     cout << setw(30) << left << "A";
@@ -77,9 +91,9 @@ int main()
     cout << setw(30) << left << "D";
     cout << setw(20) << right << "Mars" << endl;
 
-    cout << setw(5) << left << "Hello i am long ga*s and i am leader of LBGT Group";
-    cout << setw(30) << left << "D";
-    cout << setw(20) << right << "Mars" << endl;
+    cout << setw(5) << left << 5;
+    cout << setw(30) << left << "E";
+    cout << setw(20) << right << "Moon" << endl;
 
 
 
