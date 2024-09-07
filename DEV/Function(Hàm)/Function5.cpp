@@ -7,16 +7,14 @@ using namespace std;
 int valueA;
 int valueB;
 
-int Value(int valueA, int valueB=83)
+int Value(int valueA, int valueB=834)
 {
     return valueA - valueB;
 }
 
 int main()
 {
-    int valueOut = Value(100);
+    int valueOut = Value(1020);
     cout <<"valueOut ="<<valueOut<<endl;
-    return 0;
-
-    
+    return 0;    
 }
