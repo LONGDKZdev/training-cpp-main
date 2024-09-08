@@ -19,5 +19,6 @@ int main()
     int valueOut =f(valueB);
     cout <<"ValueOut ="<<valueOut<<endl;
 
+
 system("Pause");
 }
