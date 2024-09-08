@@ -9,9 +9,9 @@ int main()
     int valueOut1 = value1 % 2;
     switch (valueOut1)
     {
-    // case1://
-    // case3://  gộp nhiều điều kiện    
-    // case5://
+    // case 1: //
+    // case 3: //  gộp nhiều điều kiện    
+    // case 5: //
     case 0:
     cout << value1 << " la so chan"<<endl;
     break;

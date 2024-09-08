@@ -7,14 +7,34 @@ using namespace std;
 int valueA;
 int valueB;
 
-int Value(int valueA, int valueB=834)
+int plusTowValue(int a, int b)
 {
-    return valueA - valueB;
+    if(a == 0){
+        return -1;
+    }
+
+    if(b == 0){
+        return -1;
+    }
+
+    return a + b;
+}
+
+int plusTowValue(int a, int b)
+{
+    if(a != 0 && b != 0)
+    {
+        return a + b;
+    }
+
+    if(a == 0 && b == 0)
+    {
+        return -1;
+    }
 }
 
 int main()
 {
-    int valueOut = Value(1020);
-    cout <<"valueOut ="<<valueOut<<endl;
-    return 0;    
+    int valueOut = plusTowValue(1020,12);
+    cout <<"valueOut ="<<valueOut<<endl; 
 }
