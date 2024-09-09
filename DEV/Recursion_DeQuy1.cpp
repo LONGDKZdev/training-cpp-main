@@ -19,6 +19,7 @@ int main()
     cout <<"Enter the value =";
     cin >> valueIn;
     int valueOut = giaithua(valueIn);
-    cout << "valueOut ="<<valueOut<<"\n"; 
+    cout << "valueOut ="<<sqrt(valueOut)<<"\n";
+
 system("Pause");
 }
