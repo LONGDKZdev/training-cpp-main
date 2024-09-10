@@ -11,18 +11,21 @@ int main ()
     // int A6[] = { 0,2,4,6,8,10 }; //khởi tạo
     // cout << A6[4] <<endl;
     int A[10];
-    int A10[]={1,2,3,4,5,6,7,8,9,10};
+    int A11[]={0,1,2,3,4,5,6,7,8,9,10};
+    int valueA;
 
-    cout << A10[0] <<endl; 
-    cout << A10[1] <<endl;
-    cout << A10[2] <<endl;
-    cout << A10[3] <<endl;
-    cout << A10[4] <<endl;
-    cout << A10[5] <<endl;
-    cout << A10[6] <<endl;
-    cout << A10[7] <<endl;
-    cout << A10[8] <<endl;
-    cout << A10[9] <<endl;
+    string B[5];
+    string B5[]= { "one", "two", "three", "four", "five"};
+
+    cout << "Enter the value from 0 to 10 =";
+    cin >> valueA;
+        if (valueA > 0 && valueA < 9){
+    cout << A11[valueA] <<endl;
+    }
+    else{
+    cout << "ERROR!\n";
+    }
+    
 
     system("Pause");
 }
