@@ -11,10 +11,9 @@ int main()
     for (int valueA =10 ; valueA <=50 ; valueA++)
     {
     if(valueA % 3 ==0 )
-        {
             cout << valueA << "is number Divisible By 3"<<endl;
-        }
     }
+    return main();
     // else
     //     {
     //         cout << valueA << "is not number Divisible By 3"<<endl;
