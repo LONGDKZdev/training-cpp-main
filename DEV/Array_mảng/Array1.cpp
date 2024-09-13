@@ -14,8 +14,8 @@ int main ()
     sizeof(int);
     int valueA;
     string B[5]= { "one", "two", "three", "four", "five"};
-    int valueSizeA = sizeof(A)/ sizeof(A[1]);
-    int valueSizeB = sizeof(B)/ sizeof(B[1]);
+    int valueSizeA = sizeof(A)/ sizeof(A[0]);
+    int valueSizeB = sizeof(B)/ sizeof(B[0]);
     cout << "Size of the array A ="<< valueSizeA <<endl;
     cout << "Size of the array B ="<< valueSizeB <<endl;
 

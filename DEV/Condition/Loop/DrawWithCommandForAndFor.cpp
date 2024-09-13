@@ -133,6 +133,7 @@ int main()
         {
             for(int valueB= value1 ; valueB <= value1 ; valueB--)
             {
+                if(valueB >0)
                     cout << valueA << valueB <<"  ";
             }
         cout <<endl;

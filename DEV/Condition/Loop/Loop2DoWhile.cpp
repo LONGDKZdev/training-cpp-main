@@ -8,26 +8,25 @@ int main()
     int value2 =1;
     int value3 =1;
     int value4 =1;
+
     int valueOut1 =0;
     int valueOut2 =0;
     int valueOut3 =1;
-    double valueOut4 =2;
+    double valueOut4 =1;
     do
     {
         valueOut1 += value1;
         value1++;
     }
     while(value1 <=10);
-    cout << "Sum from 1 to 10 =" << valueOut1 << endl;
-
+    cout << "Sum from 1 to 10 ="<<valueOut1<<endl;
     do
     {
         valueOut2 -= value2;
         value2++;
     }
     while(value2 <=10);
-    cout << "Difference from 1 to 10 =" << valueOut2 << endl;
-
+    cout << "Difference from 1 to 10 ="<<valueOut2<<endl;
     do
     {
         valueOut3 *= value3;
