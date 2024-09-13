@@ -50,5 +50,6 @@ int main()
     cout << "value of C = "<< valueC << endl;
     cout << "value of S = "<< valueS << endl;
 
+
     system ("Pause");
 }
