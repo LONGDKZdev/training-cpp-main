@@ -72,24 +72,15 @@ public:
         return true; // Sudoku đã được giải
     }
 
-    // Hàm khởi tạo bảng Sudoku với một số giá trị ban đầu
-    void initializeBoard() {
-        int initialBoard[9][9] = {
-            {0, 7, 2, 0, 0, 1, 0, 0, 0},
-            {0, 4, 0, 0, 0, 0, 0, 1, 0},
-            {0, 3, 1, 6, 0, 0, 0, 5, 0},
-            {0, 0, 5, 9, 0, 0, 0, 0, 0},
-            {0, 0, 0, 0, 0, 0, 4, 2, 0},
-            {0, 2, 8, 0, 7, 0, 5, 6, 0},
-            {1, 5, 7, 0, 9, 0, 0, 3, 2},
-            {0, 0, 6, 0, 1, 8, 7, 0, 0},
-            {0, 8, 0, 0, 0, 0, 0, 0, 6}
-        };
-
-        // Sao chép giá trị từ initialBoard vào board
+    // Hàm khởi tạo bảng Sudoku từ người dùng
+    void inputBoard() {
+        cout << "Nhập các số từ 1 đến 9 cho các ô. Nhập 0 cho ô trống.\n";
         for (int i = 0; i < 9; i++) {
             for (int j = 0; j < 9; j++) {
-                board[i][j] = initialBoard[i][j];
+                do {
+                    cout << "Nhập số cho ô [" << i+1 << "][" << j+1 << "]: ";
+                    cin >> board[i][j];
+                } while (board[i][j] < 0 || board[i][j] > 9); // Đảm bảo số nhập vào từ 0 đến 9
             }
         }
     }
@@ -98,11 +89,11 @@ public:
 int main() {
     Sudoku game;
 
-    // Khởi tạo bảng Sudoku
-    game.initializeBoard();
+    // Nhập bảng Sudoku từ người dùng
+    game.inputBoard();
 
-    // In bảng Sudoku ban đầu
-    cout << "Bảng Sudoku ban đầu:\n";
+    // In bảng Sudoku đã nhập
+    cout << "\nBảng Sudoku ban đầu:\n";
     game.printBoard();
 
     // Giải Sudoku
@@ -112,6 +103,6 @@ int main() {
     } else {
         cout << "\nKhông thể giải được bảng Sudoku.\n";
     }
-    system("Pause");
+
     return 0;
 }
