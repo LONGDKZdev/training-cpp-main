@@ -104,5 +104,6 @@ int main() {
         cout << "\nKhông thể giải được bảng Sudoku.\n";
     }
 
+system("pause");
     return 0;
 }
