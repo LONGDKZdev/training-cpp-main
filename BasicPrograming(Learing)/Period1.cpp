@@ -8,14 +8,23 @@ int main()
 {
     int valueA;
     int valueB;
-    int Sum;
+    int Tong, Hieu;
+    double Tich, Thuong;
 
     cout << "Enter the valueA =";
     cin >> valueA;
     cout << "Enter the valueB =";
     cin >> valueB;
-    Sum= valueA +valueB;
-    cout << "valueOut ="<<Sum<<endl;
+
+    Tong= valueA +valueB;
+    Hieu=valueA - valueB;
+    Tich=valueA * valueB;
+    Thuong=valueA / valueB;
+
+    cout << "valueOut With valueA + valueB = "<<Tong<<endl;
+    cout << "valueOut With valueA - valueB = "<<Hieu<<endl;
+    cout << "valueOut With valueA * valueB = "<<Tich<<endl;
+    cout << "valueOut With valueA / valueB = "<<Thuong<<endl;
 
 system("Pause");
 }
