@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main()
-// khai báo n phần tử
+// khai báo phần tử n
 {
     int nValue;
     nValue = 129;
