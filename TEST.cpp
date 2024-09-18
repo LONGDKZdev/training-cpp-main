@@ -9,4 +9,5 @@ int main()
     cout<<"2 Different number !\n";
     else
     cout<<"2 Same number !\n";
+
 }
