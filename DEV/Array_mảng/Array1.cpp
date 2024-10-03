@@ -44,4 +44,5 @@ int main ()
     
 
     system("Pause");
+    system("cls");
 }

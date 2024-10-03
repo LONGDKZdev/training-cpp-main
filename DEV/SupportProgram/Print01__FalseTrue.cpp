@@ -7,6 +7,6 @@ int main()
     cout << boolalpha; //PrintOut From True or False to True or False
     cout << true <<endl;
     cout << false <<endl;
-
+    cout<<__SIZEOF_DOUBLE__<<" Byte "<<endl;
 system("Pause");
 }
