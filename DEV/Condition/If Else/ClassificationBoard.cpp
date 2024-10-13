@@ -6,8 +6,8 @@ int main()
     double score;
     cout << "scoreIn= ";
     cin >> score;
-
-if(score <=10 && score >=8)
+    
+if(score <=10 && score >=8.5)
     cout << "Gioi"<<endl;
 else if(score <8 && score >=6.5)
     cout <<"Kha"<<endl;

@@ -10,7 +10,6 @@ if(((year%4==0) && (year%100!=0))||(year%400==0))
     cout << year <<" Is leap year"<<endl;
 else
     cout << year << " Is not leap year"<<endl;
-    system("Pause");
 //***************************//
 //Number of days in the month//
 //***************************//
@@ -65,4 +64,6 @@ switch (month)
     break;
     }
 system("Pause");
+system("cls");
 }
+
